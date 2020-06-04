@@ -11,6 +11,7 @@ I used the medium-editor, turndown and marked library and integrated it (roughly
 ## TODO
 
 - [ ] Create library bundle with peer dependencies to use mui
+- [ ] Github CI/CD integration
 - [ ] Cleanup/Reduce extraneous options that aren't applicable
 - [ ] Use mui theme to stylize the context toolbar
 - [ ] Toolbar Icons
