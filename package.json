@@ -37,7 +37,7 @@
   },
   "scripts": {
     "prebuild": "rimraf dist",
-    "build": "microbundle -i src/index.ts -o dist -f modern",
+    "build": "microbundle -i src -o dist -f modern",
     "lint": "eslint \"scripts/**/*.ts\" \"src/**/*.js\" \"src/**/*.jsx\"",
     "format": "eslint --fix \"scripts/**/*.ts\" \"src/**/*.js\" \"src/**/*.jsx\"",
     "pretest": "npm run lint",

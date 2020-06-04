@@ -13,7 +13,7 @@ import FormControl, { useFormControl } from '@material-ui/core/FormControl';
 import FormHelperText from '@material-ui/core/FormHelperText';
 import withStyles from '@material-ui/core/styles/withStyles';
 
-import MediumEditor from './medium-editor';
+import MediumEditor from './MediumEditor';
 
 const variantComponent = {
   standard: Input,
@@ -112,9 +112,8 @@ const MediumEditorField = React.forwardRef(function MediumEditorField(props: any
   } = props;
 
   React.useEffect(() => {
-    if (!containerEl?.current) return;
     containerEl.current.addEventListener('click', () => {
-      setTimeout(() => containerEl?.current?.querySelector('[contenteditable]')?.focus(), 10);
+      setTimeout(() => containerEl.current.querySelector('[contenteditable]').focus(), 10);
     });
   }, []);
 
@@ -125,7 +124,7 @@ const MediumEditorField = React.forwardRef(function MediumEditorField(props: any
       InputMore.notched = InputLabelProps.shrink;
     }
     if (label) {
-      const displayRequired = InputLabelProps?.required ?? required;
+      const displayRequired = (InputLabelProps && InputLabelProps.required) || required;
       InputMore.label = (
         <React.Fragment>
           {label}
@@ -170,7 +169,7 @@ const MediumEditorField = React.forwardRef(function MediumEditorField(props: any
           outline: '0px solid transparent',
           margin: '-18.5px -14px',
           padding: '18.5px 14px',
-          ...inputProps?.style,
+          ...(inputProps && inputProps.style),
         },
         height: rows ? `calc(${rows * 1.25}em + 37px)` : null,
         minHeight: '1em',
