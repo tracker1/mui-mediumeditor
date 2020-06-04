@@ -24,5 +24,7 @@ I used the medium-editor, turndown and marked library and integrated it (roughly
 
 ## Extended features/use cases
 
+- [ ] Matching Markdown View Component
+- [ ] HTML Sanitizer
 - [ ] Image Upload/Integration
 - [ ] Image drop support
