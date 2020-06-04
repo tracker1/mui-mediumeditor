@@ -1,4 +1,5 @@
-# mui-mediumfield
+# mui-mediumeditorfield
+
 Material-UI input field for rich text using medium-editor
 
 [Demonstration](https://codesandbox.io/s/mui-medium-editor-7ukf2)
