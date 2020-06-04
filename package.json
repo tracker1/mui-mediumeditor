@@ -1,0 +1,24 @@
+{
+  "name": "mui-mediumeditor",
+  "version": "0.0.0",
+  "description": "Material-UI form control input field for rich text using medium-editor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No Tests Configured\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tracker1/mui-mediumeditor.git"
+  },
+  "keywords": [
+    "material-ui",
+    "rich-text",
+    "medium-editor"
+  ],
+  "author": "Michael J. Ryan <mui-mediumeditor@tracker1.dev>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tracker1/mui-mediumeditor/issues"
+  },
+  "homepage": "https://github.com/tracker1/mui-mediumeditor#readme"
+}
