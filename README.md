@@ -30,6 +30,7 @@ import MediumEditorField from 'mui-mediumeditor';
      onChange={handleHtmlChange}
    />
 ```
+Future: this will display the content using the mui theme.
 
 Properties:
 
