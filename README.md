@@ -1,6 +1,6 @@
 # mui-mediumeditor
 
-Material-UI input field for rich text using medium-editor
+[Material-UI](https://material-ui.com/) form control input field for rich text using [medium-editor](http://yabwe.github.io/medium-editor/)
 
 [Demonstration](https://codesandbox.io/s/mui-medium-editor-7ukf2)
 
@@ -10,13 +10,6 @@ This is starting based on some effort on a project I'd been working on. Here's a
 ### Version 0.x.x WARNING
 
 While in initial development, until v1, there will be breaking changes... If you use this, you should pin to a specific version and update once 1.0.0 is released, from there, I will work with semver releases.
-
-### Dependencies
-
-This component would not exist without the work on the following modules.
-
-* [material-ui](https://material-ui.com/) for theming and making this look like other form fields.
-* [medium-editor](http://yabwe.github.io/medium-editor/) for the contenteditable interactions, toolbar, etc.
 
 ## Usage
 
