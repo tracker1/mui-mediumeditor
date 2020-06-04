@@ -3,9 +3,6 @@
   "version": "0.0.0",
   "description": "Material-UI form control input field for rich text using medium-editor",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"No Tests Configured\""
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tracker1/mui-mediumeditor.git"
@@ -20,5 +17,19 @@
   "bugs": {
     "url": "https://github.com/tracker1/mui-mediumeditor/issues"
   },
-  "homepage": "https://github.com/tracker1/mui-mediumeditor#readme"
+  "homepage": "https://github.com/tracker1/mui-mediumeditor#readme",
+  "dependencies": {
+    "@material-ui/core": "~4.10.1",
+    "medium-editor": "~5.23.3"
+  },
+  "devDependencies": {
+    "microbundle": "^0.12.0",
+    "rimraf": "^3.0.2",
+    "shelljs": "^0.8.4"
+  },
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "microbundle -i src/index.ts -o dist -f modern",
+    "test": "echo \"No Tests Configured\""
+  }
 }
