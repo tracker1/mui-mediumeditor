@@ -21,3 +21,8 @@ I used the medium-editor, turndown and marked library and integrated it (roughly
 - [ ] Passhtrough options for marked
 - [ ] Async loading of dependencies
 - [ ] Publish for CDN use
+
+## Extended features/use cases
+
+- [ ] Image Upload/Integration
+- [ ] Image drop support
